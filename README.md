@@ -1,4 +1,5 @@
 # Multi-Agent Drone Pathfinding: Dijkstra + Prioritized Coordination
+Author: Abhinav Bhiwapurkar.
 
 Part I (Task Completion) of the hiring process *Quantum-Assisted Multi-Agent System Optimization for Autonomous Swarms*:
 coordinating several autonomous drones on a shared 2D grid so that each reaches its target without colliding, while keeping total travel distance and mission time low.
@@ -40,8 +41,8 @@ Worked example (10x10 grid, 15% obstacles, seed 0; Scenario 2 has the 5 drones, 
 Requires Python 3.9 or newer.
 
 ```bash
-git clone <this repository's URL>
-cd <repository folder>
+git clone https://github.com/abhinavbhiwapurkarcse-sudo/multi-agent-drone-pathfinding.git
+cd multi-agent-drone-pathfinding
 python -m venv .venv
 # Windows: .venv\Scripts\activate      macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
