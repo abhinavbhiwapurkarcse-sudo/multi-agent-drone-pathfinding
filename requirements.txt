@@ -1,0 +1,5 @@
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+pillow>=9.0        # only needed to export the animated GIFs
+notebook>=6.5      # to open and run the .ipynb (JupyterLab also works)

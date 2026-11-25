@@ -1,0 +1,5 @@
+scenario,method,total_distance,ideal_distance,collisions,reached_pct,completion_time,wait_steps,runtime_s
+Scenario 1 (2 agents),Independent (naive),25,25,1,100.0,15,0,0.0011049999998249405
+Scenario 1 (2 agents),Coordinated,25,25,0,100.0,15,0,0.009387900000092486
+Scenario 2 (5 agents),Independent (naive),45,45,5,100.0,15,0,0.0009722999998302839
+Scenario 2 (5 agents),Coordinated,47,45,0,100.0,15,2,0.010391799999979412
